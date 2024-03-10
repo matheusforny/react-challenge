@@ -1,0 +1,75 @@
+.componentContainer {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Ensures the container fills the entire viewport height */ 
+}
+
+.breakingBadComponents {
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px 10px 20px;
+}
+
+.inputLabel {
+    color: #e2e2e2;
+    margin-bottom: 5px;
+}
+
+.inputField {
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.breakingBadButton {
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #e2e2e2;
+    border-color: transparent;
+    background-color: #044730;
+    font-family: sans-serif;
+    padding: 5px;
+    width: 100%;
+}
+
+.titleTextContainer {
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 50px;
+}
+
+.textLetterNormal {
+    display: inline;
+    font-size: 140px;
+    font-family: sans-serif;
+    color: #e2e2e2;
+}
+
+.textLetterPeriodic {
+    display: inline;
+    font-size: 140px;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 5px;
+    background: green;
+    border: 3px solid #fff;
+    background: #46a08c;
+    /* Old browsers */
+    background: -webkit-linear-gradient(130deg, #46a08c 0%, #1C3F1D 100%, #303030 90%);
+    background: -moz-linear-gradient(130deg, #46a08c 0%, #1C3F1D 100%, #303030 90%);
+    background: -o-linear-gradient(130deg, #46a08c 0%, #1C3F1D 100%, #303030 90%);
+    background: linear-gradient(130deg, #46a08c 0%, #1C3F1D 100%, #303030 90%);
+    box-shadow: inset 0px 2px 2px rgba(50, 50, 50, .6);
+}
