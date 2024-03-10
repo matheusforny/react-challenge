@@ -5,3 +5,5 @@
 3. To run this on your localhost, run "npm run start".
 
 This web app takes the first combination of periodic elements on each line and "breakify" them, ignoring lowercased letters and accented letters. Enjoy!
+
+You can also access https://matheusforny.github.io/react-challenge/ to check the web app!
